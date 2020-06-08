@@ -110,7 +110,18 @@
 
     {% block content %}
 
-
+    <div class="container" style="padding: 30px">
+      <div class="jumbotron my_jumbotron">
+        <h1 class="display-4">Welcome</h1>
+        <p class="lead">JSRR Placements</p>
+        <hr class="my-4">
+        <p><i class="fa fa-leaf"></i> - As an <b>Examiner</b> you can create, manage and publish online exams easily.</p>
+        <p><i class="fa fa-leaf"></i> - As a <b>Student</b> you can take online exams anytime anywhere effortlessly.</p>
+        <hr class="my-4">
+        <a class="btn btn-primary btn-lg" href="/users/login/" role="button">Examiner</a>
+        <a class="btn btn-success btn-lg" href="/users/students/sign_up/" role="button">Student</a>
+      </div>
+    </div>
     {% endblock %}
 
     <!-- Footer -->
